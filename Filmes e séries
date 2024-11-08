@@ -1,0 +1,94 @@
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>MelissaFlix</title>
+</head>
+
+<body>
+    <header>MelissaFlix</header>
+
+    <section>
+        <div class="chamada-texto">
+    <h1>Resumo de Harry Potter - Em Ordem Cronológica A HISTÓRIA COMPLETA DE HARRY POTTER [+13]</h1>
+    <p>#harrypotter</p>
+</div>
+        </div>
+
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Rgy1AEPyguM?si=u9LsYJq4jj3rFliO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+}
+
+header {
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228);
+}
+/* código omitido */
+
+section {
+    background: rgb(184,156,213);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+<!-- código omitido -->
+
+<section>
+    <h2>Filmes e séries</h2>
+    <div>
+        <a href="https://www.youtube.com/watch?v=7n1yTFAPU44">
+            <img src="https://youtu.be/7n1yTFAPU44?si=c3RxvVqGkhztRrh7" />
+        </a>
+        <a href="https://www.youtube.com/watch?v=5u9rJjMyMYA">
+            <img src="https://youtu.be/5u9rJjMyMYA?si=laE_1BRdouxlk3-h" />
+        </a>
+        <a href="https://www.youtube.com/watch?v=mbOFUx4bIOo">
+            <img src="https://youtu.be/mbOFUx4bIOo?si=jhettWY3RN6yr48N" />
+        </a>
+    </div>
+</section>
+
+<!-- código omitido -->
+/* código omitido */
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* código omitido */
+/* código omitido */
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+/* código escondido */
